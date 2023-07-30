@@ -1,0 +1,170 @@
+
+/*Header part*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    height: 64px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    overflow:hidden ;
+    font-family: 'Montserrat', sans-serif;
+align-items: center;
+}
+.logo{
+    align-items: right;
+    margin-left: 24px;
+    height: 42px;
+    }
+.colmar{
+    font-weight: 800;
+}
+.academy{
+    font-weight: 100;
+}
+a{
+    margin: 16px;
+    list-style: none;
+}
+
+.topnav-right{
+float: right;
+flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+/*cover part*/
+
+.cover{
+    background-color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
+   display: flex;
+   
+}
+.cover-img{
+    width: 57.15%;
+    margin: 32px 24px;
+}
+.learn{
+    color: #363636;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.learn-cover{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.text-cover{
+    border-bottom: 18px;
+}
+button{
+background-color: #363636;
+color: gainsboro; ;
+border: none;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+justify-content: center;
+font-size: 16px;
+}
+.box-cover{
+    display: flex;
+    flex-direction: column;
+    margin-right: 54px;
+}
+
+/* main */
+.info-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+}
+.pic-container{
+    max-width: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+/* left photo */
+.info-img{
+    max-width: 100%;
+    margin: 32px 24px;
+}
+.text-photo{
+    display: flex;
+    flex-direction: column;
+}
+.practice{
+    margin-top: 0px;
+    color: #363636;
+    font-size: 30px;
+    
+}
+.practice-text{
+    margin-top: 0px;
+    color: #363636;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+.info-txt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* Content right */
+.right-info{
+    display: flex;
+    max-width: 40%;
+    overflow: hidden;
+    flex-direction: column;
+}
+.element1{
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+.card-info{
+    padding-left: 16px;
+    padding-top: 16px;
+    display: inline-flex;
+    border: 1px solid gainsboro;;
+}
+.card-info1{
+    padding-left: 16px;
+    display: inline-flex;
+    border: 1px solid gainsboro;;
+}
+.card-info2{
+    padding-left: 16px;
+    display: inline-flex;
+    border: 1px solid gainsboro;;
+    background-color:  gainsboro;
+}
+.pic-text{
+    display: flex;
+    flex-direction: column;
+}
+#card-head{
+    font-weight: bold;
+}
+#card-body{
+font-weight: 400;
+}
+#card-link{
+    font-weight: 500;
+    color: dodgerblue;
+}
+/* Start learning */
