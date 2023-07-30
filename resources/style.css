@@ -117,7 +117,22 @@ font-size: 16px;
     flex-direction: column;
     margin-right: 54px;
 }
+@media only screen and (max-width:500px) {
+    .cover{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cover-img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .box-cover{
+        margin-left: 16px;
+        margin-bottom: 32px;
 
+    }
+}
 
 /* main */
 .info-container{
@@ -214,6 +229,68 @@ margin-bottom: 8px;
     color: dodgerblue;
     margin: 0px;
 }
+.mobile1{
+    display:none; 
+}
+@media only screen and (max-width:500px) {
+    .right-info{
+        display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    }
+    .text-photo{
+    display: none;
+}
+.element1{
+    display: none;
+}
+.mobile1{
+    display: block;
+    width: 100%;
+}
+.info-container{
+    width: 100%;
+    display: flex;
+    padding-bottom: 0px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 0px ;
+    padding-bottom: 64px;
+    padding-top: 16px;
+    padding-left: 0px;
+}
+.card-info1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 0px ;
+    padding-bottom: 64px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.card-info2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 0px ;
+    padding-bottom: 64px;
+    background-color: white;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+
+}
 /* Start learning */ 
 
                                     /* Have a look at display here */
@@ -265,6 +342,42 @@ b{
 .para-card{
     color:  rgb(159, 155, 155);;
 }
+
+@media only screen and (max-width:500px) {
+    .card-main-head{
+        padding-top: 0px;
+    }
+    .card-cont{
+        display: contents;
+    }
+    .container{
+        padding: 0px;
+    }
+    .card{
+        display: contents;
+    }
+    .main-start{
+        background-color: white;
+    }
+    .card-cont img{
+        display: none;
+    }
+    .courses{
+        display: none;
+    }
+    .para-card{
+        display: none;
+    }
+    b{
+        font-size: 30px;
+        font-weight: 500;
+        padding: 30px;
+        margin: 8px;
+        display: block;
+        background-color:gainsboro ;
+    }
+
+}
 /* Video Area */
 
 .info-thesis{
@@ -305,6 +418,27 @@ video{
     padding-left: 16px;
     display: inline-flex;
 }
+.mobile-video{
+    display: none;
+}
+@media only screen and (max-width:500px) {
+    .info-thesis{
+        width: 100%;
+        text-align: start;
+        font-size: 27px;
+    }
+    .mobile-video{
+        display: block;
+        margin-bottom: 24px;
+    }
+.thesis-txt{
+    margin-top: 32px;
+}
+.info-container-video{
+    display: none;
+}
+
+}
 /* footer */
 
 .bottom{
@@ -323,6 +457,16 @@ padding-left: 24px;
     flex: 1;
     justify-content: flex-end;
 }
-.bottom-footer{
-    font-weight: 400;
+
+.bottom-footer {
+font-weight: 400;
+}
+
+@media only screen and (max-width:500px) {
+    .bottom1{
+        display: none;
+    }
+    .bottom-footer{
+        margin: 16px;
+    }
 }
