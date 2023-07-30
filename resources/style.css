@@ -216,4 +216,43 @@ b{
 .para-card{
     color:  rgb(159, 155, 155);;
 }
+/* Video Area */
 
+.info-thesis{
+    text-align: center;
+    padding:32px;
+    font-size: larger;
+}
+video{
+    max-width: 100%;
+}
+.practice-video{
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.info-container-video{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+}
+.pic-container{
+    max-width: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-info-vid{
+    background-color:gainsboro ;
+    margin-left: 16px;
+    display: inline-flex;
+}
+.card-info1-vid{
+    padding-left: 16px;
+    display: inline-flex;
+}
+/* footer */
