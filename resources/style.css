@@ -167,4 +167,53 @@ font-weight: 400;
     font-weight: 500;
     color: dodgerblue;
 }
-/* Start learning */
+/* Start learning */ 
+
+                                    /* Have a look at display here */
+.main-start{ 
+    background-color:  gainsboro;
+    display: block;   
+    padding-bottom: 32px;
+}
+
+.card-main-head{
+    padding-top: 32px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.card-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 32px;
+    
+}
+
+.card{
+   display: grid;
+   grid-template-rows: max-content 200px 1fr;
+background-color: white;
+
+}
+.card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    padding: 16px
+}
+
+b{
+    font-weight: 700;
+    font-size: large;
+    color: rgb(94, 93, 93);
+}
+.courses{
+    font-weight: 300;
+    font-size: medium;
+}
+.para-card{
+    color:  rgb(159, 155, 155);;
+}
+
