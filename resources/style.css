@@ -156,16 +156,24 @@ font-size: 16px;
 .pic-text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #card-head{
-    font-weight: bold;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 32px;
 }
 #card-body{
+    font-size: 18px;
 font-weight: 400;
+margin-top: 8px;
+margin-bottom: 8px;
 }
 #card-link{
+    font-size: 18px;
     font-weight: 500;
     color: dodgerblue;
+    margin: 0px;
 }
 /* Start learning */ 
 
@@ -179,7 +187,9 @@ font-weight: 400;
 .card-main-head{
     padding-top: 32px;
     text-align: center;
-    font-size: 32px;
+    color: rgb(94, 93, 93);
+    margin: 32px;
+    font-size: 40px;
 }
 
 .card-cont{
@@ -219,9 +229,10 @@ b{
 /* Video Area */
 
 .info-thesis{
+    color: rgb(94, 93, 93);
     text-align: center;
-    padding:32px;
-    font-size: larger;
+    margin: 32px;
+    font-size: 35px;
 }
 video{
     max-width: 100%;
@@ -256,3 +267,23 @@ video{
     display: inline-flex;
 }
 /* footer */
+
+.bottom{
+    display: inline-flex;
+    width: auto;
+  color: rgb(68, 66, 66);
+    display: flex;
+    overflow:hidden ;
+align-items: center;
+border-top: 1px solid gainsboro;
+padding-left: 24px;
+}
+.bottom1{
+    display: inline-flex;
+    float: right;
+    flex: 1;
+    justify-content: flex-end;
+}
+.bottom-footer{
+    font-weight: 400;
+}
